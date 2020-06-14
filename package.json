@@ -1,19 +1,26 @@
 {
+  "name": "snowpack-framework7",
+  "version": "1.0.0",
+  "description": "Create Snowpack App (CSA) + Framework7",
+  "keywords": ["snowpack", "framework7"],
+  "author": "CoderBuzz",
+  "license": "ISC",
   "scripts": {
     "dev": "snowpack dev",
     "build": "snowpack build",
-    "reset": "snowpack --reload"
+    "reset": "snowpack --reload",
+    "serve": "serve build"
   },
   "dependencies": {
-    "framework7": "latest",
-    "framework7-react": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "framework7": "^5.7.8",
+    "framework7-react": "^5.7.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@snowpack/app-scripts-react": "latest",
-    "@snowpack/plugin-dotenv": "latest",
-    "@snowpack/plugin-webpack": "latest",
-    "snowpack": "latest"
+    "@snowpack/app-scripts-react": "^1.2.0",
+    "@snowpack/plugin-dotenv": "^1.1.1",
+    "@snowpack/plugin-webpack": "^1.2.0",
+    "snowpack": "^2.5.1"
   }
 }
