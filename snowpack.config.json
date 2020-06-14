@@ -4,7 +4,7 @@
   "plugins": ["@snowpack/plugin-dotenv", "@snowpack/plugin-webpack"],
   "installOptions": {
     "sourceMap": false,
-    "treeshake": true
+    "treeshake": false
   },
   "buildOptions": {
     "baseUrl": "/",

@@ -1,6 +1,6 @@
 # New Project
 
-> ✨ Bootstrapped with Create Snowpack App (CSA) + Framework7.
+> ✨ Bootstrapped with Create Snowpack App (CSA) + React + Framework7.
 
 ## Available Scripts
 

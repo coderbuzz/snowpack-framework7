@@ -1,8 +1,12 @@
 {
   "name": "snowpack-framework7",
   "version": "1.0.0",
-  "description": "Create Snowpack App (CSA) + Framework7",
-  "keywords": ["snowpack", "framework7"],
+  "description": "Create Snowpack App (CSA) + React + Framework7",
+  "keywords": [
+    "react",
+    "snowpack",
+    "framework7"
+  ],
   "author": "CoderBuzz",
   "license": "ISC",
   "scripts": {
@@ -13,6 +17,7 @@
   },
   "dependencies": {
     "framework7": "^5.7.8",
+    "framework7-icons": "^3.0.1",
     "framework7-react": "^5.7.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
