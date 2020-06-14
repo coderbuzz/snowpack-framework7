@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "reset": "snowpack --reload"
+  },
+  "dependencies": {
+    "framework7": "latest",
+    "framework7-react": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "latest",
+    "@snowpack/plugin-dotenv": "latest",
+    "@snowpack/plugin-webpack": "latest",
+    "snowpack": "latest"
+  }
+}
